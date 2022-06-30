@@ -5,10 +5,16 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+import java.util.UUID;
+
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
-@AllArgsConstructor(staticName = "build")
-@NoArgsConstructor
-public class BrandRequestModel {
+public class BrandDto {
+    private Long id;
+    private UUID uuid;
     private String name;
+    private Date createAt;
 }
