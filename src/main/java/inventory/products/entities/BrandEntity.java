@@ -11,9 +11,8 @@ import java.util.Date;
 @Entity(name="brands")
 @Getter
 @Setter
-@RequiredArgsConstructor
 @NoArgsConstructor
-@AllArgsConstructor
+@AllArgsConstructor(staticName = "build")
 public class BrandEntity {
     @Id
     @GeneratedValue
