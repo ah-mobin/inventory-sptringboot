@@ -8,13 +8,13 @@ import lombok.Setter;
 import java.util.Date;
 import java.util.UUID;
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class BrandDto {
     private Long id;
     private UUID uuid;
     private String name;
-    private Date createAt;
+    private Date createdAt;
 }

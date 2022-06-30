@@ -25,7 +25,7 @@ public class BrandController {
     }
 
     @GetMapping()
-    public ResponseEntity<List<BrandEntity>> index(){
+    public ResponseEntity<List<BrandResponseModel>> index(){
         return ResponseEntity.ok(brandService.getAllBrands());
     }
 

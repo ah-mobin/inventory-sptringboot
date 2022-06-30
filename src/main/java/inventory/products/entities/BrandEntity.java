@@ -20,5 +20,5 @@ public class BrandEntity {
     private Long id;
     private UUID uuid;
     private String name;
-    private Date createAt;
+    private Date createdAt;
 }

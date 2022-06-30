@@ -8,7 +8,7 @@ import inventory.products.response.BrandResponseModel;
 import java.util.List;
 
 public interface BrandService {
-    List<BrandEntity> getAllBrands();
+    List<BrandResponseModel> getAllBrands();
 
     BrandDto storeBrand(BrandDto brandDto);
 }
